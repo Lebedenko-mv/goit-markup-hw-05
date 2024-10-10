@@ -613,6 +613,65 @@ img{
 }
 
 
+.formcontainertext{
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-style: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+
+.form{
+    display: flex;
+}
+
+.formlabel{
+    gap:24px;
+
+}
+
+.formlabelinput{
+    width: 264px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+.formlabelinput::placeholder{
+    color: #ffffff;
+}
+
+.formbutton{
+    min-width: 165px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+}
+
+
+.formbuttonlogo{
+    margin-left: 16px;
+}
 
 
 

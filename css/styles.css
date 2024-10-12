@@ -849,7 +849,7 @@ img{
 
 }
 
-.user-name:focus ~ .usernameicon use{
+input:focus ~ .usernameicon use{
     fill: #4D5AE5;
 }
 
@@ -913,12 +913,12 @@ img{
 
 
 input[type="checkbox"]:checked + label .checkboxlabelspan {
-    background-color: #404bbf;;
+    background-color: #404bbf;
     border: none;
 }
 
 
-input[type="checkbox"]:checked + label .checkboxlabelspan svg {
+input[type="checkbox"]:checked + label .checkboxlabelspan {
     fill: #F4F4FD; 
 }
 

@@ -849,7 +849,7 @@ img{
 
 }
 
-.user-name:focus ~ .usernameicon use{
+.user-name:focus-within + .usernameicon use{
     fill: #4D5AE5;
 }
 
